@@ -61,7 +61,7 @@ public sealed partial class MainWindow : Window
     private void OnLoaded(object sender, RoutedEventArgs args)
     {
         Instructions.Text = FormattableString.Invariant(
-            $"Viewport {_case.ViewportWidth} x {_case.ViewportHeight}, DPI {_case.DpiScale}, zoom {_case.ZoomFactor}. Actual DPI: {Root.XamlRoot.RasterizationScale}. Scroll manually with the mouse wheel, then click Animated ScrollToTop. The initial-offset button is optional. See Debug output.");
+            $"Viewport {_case.ViewportWidth} x {_case.ViewportHeight}, DPI {_case.DpiScale}, zoom {_case.ZoomFactor}. Actual DPI: {Root.XamlRoot.RasterizationScale}. Scroll all the way down with the mouse wheel, or scroll partway down and click Jump Down. Then click Scroll to Top. Print Debug Log writes events to the Visual Studio Output window.");
         DumpRuntimeModules();
         Record("Loaded", Snapshot());
         Debug.WriteLine("[LayoutCycleRepro] Loaded " + Snapshot());

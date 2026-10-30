@@ -11,9 +11,9 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" Spacing="8">
-            <Button Click="OnPrepare" Content="Initial offset (optional)" />
-            <Button Click="OnScrollToTop" Content="Animated ScrollToTop" />
-            <Button Click="OnDump" Content="Dump capture" />
+            <Button Click="OnPrepare" Content="Jump Down" />
+            <Button Click="OnScrollToTop" Content="Scroll to Top" />
+            <Button Click="OnDump" Content="Print Debug Log" />
         </StackPanel>
         <TextBlock x:Name="Instructions" Grid.Row="1" MaxWidth="1183" TextWrapping="Wrap" />
         <ScrollView
