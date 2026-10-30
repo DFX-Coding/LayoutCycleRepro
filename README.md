@@ -14,7 +14,7 @@ Minimal WinUI 3 reproduction of a layout cycle when using animated scrolling wit
 
 1. Open `LayoutCycleRepro.csproj` in Visual Studio.
 2. Build and run the application in Debug/x64.
-3. Scroll the list using the mouse wheel.
+3. Scroll all the way to the bottom of the list using the mouse wheel. Alternatively, scroll partway down using the mouse wheel, then click **Initial offset (optional)**.
 4. Click **Animated ScrollToTop**.
 5. Observe the layout cycle exception.
 
