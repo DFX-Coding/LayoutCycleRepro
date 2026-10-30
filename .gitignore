@@ -1,0 +1,53 @@
+# Visual Studio and local IDE state
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# .NET, MSBuild and WinUI output
+**/[Bb]in/
+**/[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Aa]rtifacts/
+AppPackages/
+BundleArtifacts/
+Generated Files/
+packages/
+*.pdb
+*.dll
+*.exe
+*.winmd
+*.pri
+*.xbf
+*.nupkg
+*.snupkg
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+
+# Runtime diagnostics and local captures
+logs/
+captures/
+*.log
+*.binlog
+*.etl
+*.dmp
+*.dump
+*.trace
+*.diagsession
+
+# Local credentials, signing material and machine files
+.env
+.env.*
+*.pfx
+*.p12
+*.key
+.DS_Store
+Thumbs.db

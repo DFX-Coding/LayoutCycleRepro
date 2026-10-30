@@ -1,0 +1,96 @@
+{
+  "viewportWidth": 1183,
+  "viewportHeight": 566,
+  "dpiScale": 1,
+  "zoomFactor": 1,
+  "spacing": 4,
+  "horizontalGutter": 24,
+  "topPadding": 8,
+  "bottomPadding": 48,
+  "rowSpacing": 12,
+  "initialOffset": 959,
+  "observedStallOffset": 912.6781005859375,
+  "horizontalCacheLength": 2,
+  "verticalCacheLength": 2,
+  "items": [
+    {
+      "index": 0,
+      "id": "Item01",
+      "height": 74,
+      "desiredWidth": 740
+    },
+    {
+      "index": 1,
+      "id": "Item02",
+      "height": 74,
+      "desiredWidth": 791
+    },
+    {
+      "index": 2,
+      "id": "Item03",
+      "height": 74,
+      "desiredWidth": 740
+    },
+    {
+      "index": 3,
+      "id": "Item04",
+      "height": 74,
+      "desiredWidth": 1097
+    },
+    {
+      "index": 4,
+      "id": "Item05",
+      "height": 74,
+      "desiredWidth": 683
+    },
+    {
+      "index": 5,
+      "id": "Item06",
+      "height": 74,
+      "desiredWidth": 709
+    },
+    {
+      "index": 6,
+      "id": "Item07",
+      "height": 74,
+      "desiredWidth": 704
+    },
+    {
+      "index": 7,
+      "id": "Item08",
+      "height": 122,
+      "desiredWidth": 737
+    },
+    {
+      "index": 8,
+      "id": "Item09",
+      "height": 122,
+      "desiredWidth": 737
+    },
+    {
+      "index": 9,
+      "id": "Item10",
+      "height": 122,
+      "desiredWidth": 1018
+    },
+    {
+      "index": 10,
+      "id": "Item11",
+      "height": 137,
+      "desiredWidth": 1006
+    },
+    {
+      "index": 11,
+      "id": "Item12",
+      "height": 137,
+      "desiredWidth": 1012
+    },
+    {
+      "index": 12,
+      "id": "Item13",
+      "height": 153,
+      "desiredWidth": 1111
+    }
+  ],
+  "leadingRowHeight": 32
+}
